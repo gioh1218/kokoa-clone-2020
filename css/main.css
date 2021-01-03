@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "status-bar.css";
 @import "variables.css";
@@ -17,7 +17,7 @@
 
 body {
     color: #2F363E;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
 }
 
 .welcome-header {

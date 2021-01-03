@@ -48,6 +48,6 @@ user-component__title--not-bold {
     align-items: flex-end;
 }
 .user-component__time {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     display: block;
 }

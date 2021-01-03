@@ -7,14 +7,17 @@
     padding: 20px 50px;
     box-sizing: border-box;
 }
+
 .nav__list {
     display: flex;
     justify-content: space-between;
 }
+
 .nav__li {
     position: relative;
     color: #2F363E;
 }
+
 .nav__notification {
     background-color: #FF6228;
     color: white;
@@ -29,6 +32,7 @@
     bottom: 15px;
     left: 15px;
 }
+
 .nav__etc {
     background-color: #FF6228;
     color: white;

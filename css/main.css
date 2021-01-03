@@ -19,6 +19,7 @@
 body {
     color: #2F363E;
     font-family: "Open Sans", sans-serif;
+    height: 300vh;
 }
 
 .welcome-header {

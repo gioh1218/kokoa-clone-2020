@@ -2,6 +2,7 @@
 .icon-row {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
   }
   
   .icon-row__icon {
@@ -17,3 +18,4 @@
   .icon-row__icon span {
     margin-top: 18px;
   }
+  

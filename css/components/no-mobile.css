@@ -1,0 +1,35 @@
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: var(--yellow);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    animation: screenAlert 2.0s ease-in-out infinite;
+}
+@keyframes screenAlert {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(15px) translateX(15px);
+    } 
+    100% {
+        transform: none;
+    }
+}
+@media screen and (max-width:645px) {
+    #no-mobile {
+        display: none;
+    }
+}
+@media screen and (orientation:portrait) {
+    #no-mobile {
+        display: none;
+    }
+}
+    

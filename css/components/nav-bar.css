@@ -17,6 +17,28 @@
     position: relative;
     color: #2F363E;
 }
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: none;
+    }
+}
+@keyframes moreAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: none;
+    }
+}
 
 .nav__notification {
     background-color: #FF6228;
@@ -31,6 +53,7 @@
     position: absolute;
     bottom: 15px;
     left: 15px;
+    animation: notificationAnimation 1.5s ease-in-out infinite;
 }
 
 .nav__etc {
@@ -46,4 +69,5 @@
     position: absolute;
     bottom: 19px;
     left: 18px;
+    animation: notificationAnimation 1.5s ease-in-out infinite;
 }

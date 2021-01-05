@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "alt-screen-header";
 
 /* Screens */
 @import "screens/login.css";
@@ -21,6 +22,7 @@ body {
     color: #2F363E;
     font-family: "Open Sans", sans-serif;
     height: 300vh;
+    padding-top: 40px;
 }
 
 .welcome-header {
